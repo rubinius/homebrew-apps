@@ -1,6 +1,6 @@
 require 'formula'
 
-class Chruby2 < Formula
+class Chrb < Formula
   homepage 'https://github.com/rubinius/chruby#readme'
   url 'https://github.com/rubinius/chruby/archive/v0.3.9.1.tar.gz'
   sha1 '7835909fc5eb52591a3a58a7794a46ac651891f2'

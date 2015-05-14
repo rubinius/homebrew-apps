@@ -1,2 +1,2 @@
-require_relative 'rubinius-2.5.2'
-Rubinius = Rubinius252
+require_relative 'rubinius-2.5.4'
+Rubinius = Rubinius254

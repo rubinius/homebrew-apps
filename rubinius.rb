@@ -1,2 +1,2 @@
-require File.expand_path('../rubinius-2.5.6', __FILE__)
-Rubinius = Rubinius256
+require File.expand_path('../rubinius-2.5.7', __FILE__)
+Rubinius = Rubinius257

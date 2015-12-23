@@ -12,6 +12,13 @@ class Rubinius27 < Formula
 
   keg_only "Conflicts with MRI (Matz's Ruby Implementation)."
 
+  def install
+    bin.install Dir["bin/*"]
+    lib.install Dir["lib/*"]
+    include.install Dir["include/*"]
+    man1.install Dir["man/man1/*"]
+  end
+
   test do
     assert_equal 'rbx', `"#{bin}/rbx" -e "puts RUBY_ENGINE"`.chomp
   end

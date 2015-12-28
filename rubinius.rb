@@ -3,7 +3,7 @@ require 'formula'
 class Rubinius < Formula
   homepage 'http://rubinius.com/'
   url 'https://rubinius-binaries-rubinius-com.s3.amazonaws.com/homebrew/rubinius-2.10.tar.bz2'
-  sha1 'd491445c52cd34caed6830ac4d7e357bc8174e70'
+  sha1 '24ddf286b5cc9d9e02146295087a3bb723f76623'
 
   depends_on 'libyaml'
 

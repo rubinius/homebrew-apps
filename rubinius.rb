@@ -2,8 +2,8 @@ require 'formula'
 
 class Rubinius < Formula
   homepage 'http://rubinius.com/'
-  url 'https://rubinius-binaries-rubinius-com.s3.amazonaws.com/homebrew/rubinius-2.10.tar.bz2'
-  sha1 '24ddf286b5cc9d9e02146295087a3bb723f76623'
+  url 'https://rubinius-binaries-rubinius-com.s3.amazonaws.com/homebrew/rubinius-2.11.tar.bz2'
+  sha1 ''
 
   depends_on 'libyaml'
 

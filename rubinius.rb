@@ -15,7 +15,6 @@ class Rubinius < Formula
   def install
     bin.install Dir["bin/*"]
     lib.install Dir["lib/*"]
-    chmod 0644, Dir["lib/rubinius/*/codedb/cache"].first
     include.install Dir["include/*"]
     man1.install Dir["man/man1/*"]
   end

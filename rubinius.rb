@@ -2,7 +2,7 @@ require 'formula'
 
 class Rubinius < Formula
   homepage 'http://rubinius.com/'
-  url 'https://rubinius-binaries-rubinius-com.s3.amazonaws.com/homebrew/rubinius-4.10.tar.bz2'
+  url 'https://rubinius-binaries-rubinius-com.s3.amazonaws.com/homebrew/rubinius-4.11.tar.bz2'
   sha256 ''
 
   depends_on 'libyaml'

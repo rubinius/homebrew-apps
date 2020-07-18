@@ -8,7 +8,7 @@ class Rubinius241 < Formula
   depends_on 'libyaml'
 
   depends_on :arch => :x86_64
-  depends_on MinimumMacOSRequirement => :mountain_lion
+  depends_on :macos => :yosemite
 
   keg_only "Conflicts with MRI (Matz's Ruby Implementation)."
 

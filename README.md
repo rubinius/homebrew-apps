@@ -1,3 +1,7 @@
+Archiving this repository for now. It will eventually be deleted.
+
+Homebrew will be supported with their new pattern of a "homebrew-tools" repo for Formula.
+
 # Rubinius Homebrew
 
 These are [Homebrew](http://brew.sh/) formula that provide useful
